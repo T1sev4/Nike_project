@@ -1,0 +1,39 @@
+.dropdown {
+    position: absolute;
+    display: none;
+    top: 40px;
+    background-color: #fff;
+    right: 0;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.dropdown a {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #111;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 400;
+}
+.dropdown a:hover {
+    background-color: #e7e7e7;
+}
+.link {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+}
+.link-dots{
+    display: block;
+    padding: 3px;
+}
+.link:hover > .dropdown {
+    display: block;
+}
+.dropdown .danger {
+    color: #ff0000;
+}

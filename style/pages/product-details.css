@@ -1,0 +1,121 @@
+.detail-block{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-img{
+    width: 50%;
+}
+.detail-img img{
+    width: 100%;
+}
+.detail-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detail-info-header h4{
+    text-transform: capitalize;
+    color: #111111;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.item-category{
+    text-transform: capitalize;
+    color: #8d8d8d;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.detail-info-header span{
+    color: #111111;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.prodDesc{
+    color: #111111;
+    height: 50%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.detailBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #111111;
+    color: #fff;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 18px;
+    padding: 20px 20px;
+    border-radius: 50px;
+}
+.detailBtn svg {
+    fill: #fff;
+    margin-left: 5px;
+}
+/* comments section */
+.prod-det-comments{
+    margin-top: 50px;
+}
+
+.comments {
+    padding: 30px 0;
+}
+.comment{
+    margin-bottom: 30px;
+}
+.comment-header {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.comment-header > img {
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    margin-right: 35px;
+}
+
+.comments > p {
+    line-height: 1.4;
+} 
+
+.comment-add textarea {
+    width: 90%;
+    height: 100px;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+.comment-warning {
+    background-color: #111111;
+    color: #fff;
+    display: block;
+    padding: 25px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.comment-warning a {
+    color: #00A2DC;
+    text-decoration: none;
+}
+.com-number{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.comments-name{
+    margin-right: 20px;
+}
